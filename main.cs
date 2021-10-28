@@ -8,3 +8,45 @@ namespace Hello World
         }
     }
 }
+
+
+string characterName = 'john';
+int characterAge; // int is used if you're trying to declare a number
+characterAge = 35; // You don't need to assign the variable similar to the word (string) value
+
+Console.writeLine('there was a man named' + characterName)  
+Console.writeLine('He is'+ characterAge + 'years old')  // this is called concatnating the string due to adding the variable inbetween a string.
+Console.writeLine('but he does not like being' + characterAge )
+Console.writeLine('#')// write line is the product used to write a message on C#
+
+Console.ReadLine();
+
+
+static void Main(string[] args)
+{
+    string phrase = 'Giraffe Academy';
+    char grade = 'B'; // with a character you can only put one(1) charcater e.g 'A' or 'U'
+    int age = 30; //numebr dont need quotation marks 
+    //float, double, decimal// if you need to be accurate you should use 'decimal' but use double if you want some accuracy.
+    double gpa = 3.3;
+    bool isMale = false // boolean can only have two values
+    console.Readline();
+
+
+
+}
+
+
+namespace Giraffe 
+{
+    class Program 
+    {
+     static void Main (string[] args)
+     {
+         console.WriteLine('Giraffe Academy');
+
+         console.Writeline('hello world');
+     }
+    }
+}
+
