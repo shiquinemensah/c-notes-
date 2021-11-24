@@ -36,7 +36,6 @@ static void Main(string[] args)
 
 }
 
-
 namespace Giraffe 
 {
     class Program 
@@ -50,3 +49,53 @@ namespace Giraffe
     }
 }
 
+
+// If statements
+
+if (condition){
+    //what happens when the condition is true
+}
+
+
+
+bool isMale = true;
+
+if(isMale) 
+{
+    console.WriteLine('you are male') // this line of code can only be executed if the statement is true
+} else
+{
+    console.WriteLine('you are not male') // this line gets executed only when the of statement is false
+}
+
+
+bool isTall = true;
+
+if (isMale && is Tall)
+{
+    console.WriteLine('you are tall')
+} else 
+{
+    console.WriteLine('you are not tall')
+}
+
+
+
+bool isMale = true 
+bool isTall = true
+
+if(isMale || isTall) // the double line represents 'or' function
+{
+    console.WriteLine('you are a tall male') 
+} else
+{
+    console.WriteLine('you are not a tall male') 
+}
+
+if(isMale && isTall) // when you use '&&' both of the conditions have to be true 
+{
+    console.WriteLine('you are a tall male') 
+} else
+{
+    console.WriteLine('you are not a tall male') 
+}
